@@ -1,1 +1,2 @@
-# 2020_Demag_GUI_tutorial
+# PmagPy Demag GUI tutorial for the 2020 MagIC workshop
+
