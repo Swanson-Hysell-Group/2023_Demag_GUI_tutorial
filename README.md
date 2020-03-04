@@ -28,19 +28,23 @@ https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.z
 
 ## Tutorial instructions
 
-### Data conversion
+### Data conversion to MagIC format
+
+In this example, we can going to convert data for one site that is a lava flow within the ca. 1084 Ma Michipicoten Island volcanics. These data were published in https://doi.org/10.1130/L580.1 with data that have been contributed to the MagIC database https://earthref.org/MagIC/11883. For the example we will work through, the data are not yet in MagIC format, but rather in the CIT lab format which includes a .sam site level file and ascii sample text files as described here: http://cires1.colorado.edu/people/jones.craig/PMag_Formats.html. While the specifics of this workflow will vary with different lab formats, this demonstration will show how Pmag_GUI can be used to convert data to MagIC format using the following steps:
 
 1. Open the Pmag GUI executable program
-2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS20- folder and .sam file in it. These data are for a site analyzed from the 1084 Ma Michipicoten Island volcanics (published in https://doi.org/10.1130/L580.1 with data in the MagIC database https://earthref.org/MagIC/11883).
+2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS21 folder and .sam file in it when you are initially prompted to pick a directory or change the directory to be that folder.
 3. Click on *1. Convert magnetometer files to MagIC format* in the Pmag GUI home window
 <img src="/images/Pmag_GUI_home.png" width="500"/>
-4. The files that we are going to be dealing with are CIT format. In the *step 1: choose file format* window, click the button for CIT format and then click *Import file*
+4. The files that we are dealing with are CIT format. In the *step 1: choose file format* window, click the button for CIT format and then click *Import file*
 <img src="/images/Convert_Step1.png" width="300"/>
-5. In the PmagPy CIT file conversion window, add the SS20-.sam file and then choose the sampling particulars. Specify the sample-site naming convention to be XXXX-YY. Specify the number of terminal characters that distinguish specimen from sample (1). Enter the location name (in this case Michipicoten Island). When all of this information is entered, press ok.
+5. In the PmagPy CIT file conversion window, add the SS21-.sam file and then choose the sampling particulars. Specify the sample-site naming convention to be XXXX-YY. Specify the number of terminal characters that distinguish specimen from sample (1). Enter the location name (in this case Michipicoten Island). When all of this information is entered, press ok.
 <img src="/images/Convert_CIT_options.png" width="500"/>
 6. Click on Go to next step in the step 1 dialog box.
 7. Click OK in the *Step 2: Combine different MagIC files* box. 
 8. Click OK in the *Step 3: Combine different MagIC formatted files* box. 
+
+Following these steps, 
 
 ## Data visualization and analysis of the converted data
 
