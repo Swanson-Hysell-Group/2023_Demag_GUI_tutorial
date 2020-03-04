@@ -36,15 +36,19 @@ In this example, we can going to convert data for one site that is a lava flow w
 2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS21 folder and .sam file in it when you are initially prompted to pick a directory or change the directory to be that folder.
 3. Click on *1. Convert magnetometer files to MagIC format* in the Pmag GUI home window
 <img src="/images/Pmag_GUI_home.png" width="500"/>
-4. The files that we are dealing with are CIT format. In the *step 1: choose file format* window, click the button for CIT format and then click *Import file*
+4. The files that we are dealing with are CIT format. In the *step 1: choose file format* window, click the button for CIT format and then click *Import file*.
 <img src="/images/Convert_Step1.png" width="300"/>
-5. In the PmagPy CIT file conversion window, add the SS21-.sam file and then choose the sampling particulars. Specify the sample-site naming convention to be XXXX-YY. Specify the number of terminal characters that distinguish specimen from sample (1). Enter the location name (in this case Michipicoten Island). When all of this information is entered, press ok.
+5. In the PmagPy CIT file conversion window, choose the SS21-.sam file and then select the sampling particulars as shown below. Leave the lab field blank as these are thermal demagnetization data. Specify the sample-site naming convention to be XXXX-YY and leave the delimiter blank. Specify the number of terminal characters that distinguish specimen from sample (1). Enter the location name (in this case Michipicoten Island). Leave the defaults for replicate measurements and number of measurement orientations. When all of this information is entered, press ok.
 <img src="/images/Convert_CIT_options.png" width="500"/>
-6. Click on Go to next step in the step 1 dialog box.
+6. Click on *Go to next step* in the step 1 dialog box.
 7. Click OK in the *Step 2: Combine different MagIC files* box. 
 8. Click OK in the *Step 3: Combine different MagIC formatted files* box. 
 
-Following these steps, 
+Following this step, you should see this message indicating that these files have been created. 
+
+<img src="/images/MagIC_creation.png" width="300"/>
+
+These are MagIC format files and these MagIC formatted files can be used for analysis in Demag_GUI. If you had more than one site to convert to MagIC format, you would repeat the *1. Convert magnetometer files to MagIC format* step multiple times and use the *step 2* and *step 3* dialog boxes to merge all of the site level data into a single set of MagIC tables. 
 
 ## Data visualization and analysis of the converted data
 
