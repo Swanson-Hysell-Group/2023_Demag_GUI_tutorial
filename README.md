@@ -88,8 +88,22 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 <img src="/images/Interpretation_Editor.png" width="500"/>
 
+7. The parameters for the least-squares fits can be saved into a lightweight file called a .redo file that specifies the bounds, the fit name, the fit type and the color. Let's save that file by clicking on the save option in Interpretation options.
+
+<img src="/images/Interpretation_save.png" width="300"/>
+
+8. Go ahead and find this file and have a look at it. It is a tab-delimited file with the specimen name, type of fit, lower bound, upper bound, fit name, color, and a flag for good (g) or bad (b). Note that the temperatures are in Kelvin. This file can be imported in order to keep working on fits without saving the fits to the final MagIC tables.
+
+<img src="/images/redo_file.png" width="300"/>
+
 ### Converting to MagIC format
 
-1. The parameters for the least-squares fits can be saved into a lightweight file called a .redo file that specifies the bounds, the fit name, the fit type and the color. Let's save and have a look at that file.
-2. To get these fits saved into MagIC format, we go to File > Save MagIC tables in Demag_GUI. We have some choices to make. In this case, it makes sense to save the directions in both geographic and tilt-corrected coordinates.
-3. Once you have saved the MagIC tables out of Demag_GUI, close the Demag_GUI window which will bring you back to the Pmag_GUI window. Here you can click the green button *Create MagIC txt file for upload*.
+1. To get these fits saved into MagIC format, we go to File > Save MagIC tables in Demag_GUI. We have some choices to make. In this case, it makes sense to save the directions in both geographic and tilt-corrected coordinates. We can also have Demag GUI save data into a results table. In this case, saving the site mean and calculating the VGP in both geographic and tilt-corrected coordinates would be valuable.
+
+<img src="/images/Results_Table_Dialog.png" width="300"/>
+
+2. Once you have saved the MagIC tables out of Demag_GUI, close the Demag_GUI window which will bring you back to the Pmag_GUI window. Here you can click the green button *Create MagIC txt file for upload*.
+
+3. For this site, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the necessary metadata. What should then come up is a validations window that provides help with adding the additional required fields.
+
+<img src="/images/Validations_window.png" width="400"/>
