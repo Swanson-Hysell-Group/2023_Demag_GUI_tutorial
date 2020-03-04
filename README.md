@@ -114,6 +114,12 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 1. The data from this study has been contributed to the MagIC database. Go here to download it https://earthref.org/MagIC/11883 or you can find it in the Fairchild2017 folder of this repository: https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.zip
 
-2. Click on Unpack txt file downloaded from MagIC
+2. Click on Unpack txt file downloaded from MagIC. 
 
 <img src="/images/Pmag_GUI_home.png" width="500"/>
+
+3. Navigate to the magic_contribution_11883.txt file
+
+4. Change the MagIC project directory to be the folder in which the MagIC file was unpacked.
+
+5. Click on Demag GUI to look at the fits that were made for the study.
