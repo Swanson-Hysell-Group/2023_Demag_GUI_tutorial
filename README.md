@@ -110,4 +110,10 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 4. These fields can be added using the validation GUI or can be added directly to the MagIC tables.
 
-## Visualizing data from a MagIC contribution
+## Unpacking and visualizing data from a MagIC contribution
+
+1. The data from this study has been contributed to the MagIC database. Go here to download it https://earthref.org/MagIC/11883 or you can find it in the Fairchild2017 folder of this repository: https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.zip
+
+2. Click on Unpack txt file downloaded from MagIC
+
+<img src="/images/Pmag_GUI_home.png" width="500"/>
