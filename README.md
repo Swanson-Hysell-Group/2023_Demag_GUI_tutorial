@@ -33,7 +33,7 @@ https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.z
 In this example, we can going to convert data for one site that is a lava flow within the ca. 1084 Ma Michipicoten Island volcanics. These data were published in https://doi.org/10.1130/L580.1 with data that have been contributed to the MagIC database https://earthref.org/MagIC/11883. For the example we will work through, the data are not yet in MagIC format, but rather in the CIT lab format which includes a .sam site level file and ascii sample text files as described here: http://cires1.colorado.edu/people/jones.craig/PMag_Formats.html. While the specifics of this workflow will vary with different lab formats, this demonstration will show how Pmag_GUI can be used to convert data to MagIC format using the following steps:
 
 1. Open the Pmag GUI executable program
-2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS21 folder and .sam file in it.
+2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS21 folder and .sam file in it when you are initially prompted to pick a directory or change the directory to be that folder.
 3. Click on *1. Convert magnetometer files to MagIC format* in the Pmag GUI home window
 <img src="/images/Pmag_GUI_home.png" width="500"/>
 4. The files that we are dealing with are CIT format. In the *step 1: choose file format* window, click the button for CIT format and then click *Import file*
