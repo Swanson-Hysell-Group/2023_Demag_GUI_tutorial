@@ -107,3 +107,7 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 3. For this site, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the necessary metadata. What should then come up is a validations window that provides help with adding the additional required fields.
 
 <img src="/images/Validations_window.png" width="400"/>
+
+4. These fields can be added using the validation GUI or can be added directly to the MagIC tables.
+
+## Visualizing data from a MagIC contribution
