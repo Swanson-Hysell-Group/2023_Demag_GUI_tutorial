@@ -68,7 +68,7 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 <img src="/images/Pmag_GUI_home.png" width="500"/>
 
-2. You should see a panel that looks like this showing the data for the first specimen in the site:
+2. You should see a panel that looks like the below showing the data for the first specimen in the site. Note that you can customize your view of the data switching between coordinate systems (e.g. specimen, geographic, tilt-corrected) and changing whether the x-axis is north or east for the vector component plot.
 
 <img src="/images/Demag_GUI_panel.png" width="700"/>
 
