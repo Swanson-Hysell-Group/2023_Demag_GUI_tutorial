@@ -9,7 +9,7 @@ Download the latest release of the PmagPy GUI software:
 Mac:
 https://github.com/PmagPy/PmagPy-Standalone-OSX/releases/latest
 
-*The first time you open the Mac version, you need to right-click and select open. Double-clicking will not open as we are not Apple-verified developers.*
+*The first time you open the Mac version, you need to right-click and select open. You may need to right-click and select open twice. Double-clicking will not open as we are not Apple-verified developers.*
 
 Windows:
 https://github.com/PmagPy/PmagPy-Standalone-Windows/releases/latest
