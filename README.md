@@ -24,7 +24,7 @@ Note that the software, particularly the Windows version, can take a long time t
 ### Download this repository
 
 Download and unpack the .zip of this repository so that you have the raw data that we will be working with.
-https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.zip
+https://github.com/Swanson-Hysell-Group/2023_Demag_GUI_tutorial/archive/master.zip
 
 ## Tutorial instructions
 
@@ -34,7 +34,7 @@ In this example, we can going to convert data for one site that is a lava flow w
 
 1. Open the Pmag GUI executable program
 
-2. Navigate to 2020_Demag_GUI_tutorial/data folder that has the SS20 folder and .sam file in it when you are initially prompted to pick a directory or change the directory to be that folder.
+2. Navigate to 2023_Demag_GUI_tutorial/data/SS20- folder that has the SS20-.sam file in it when you are initially prompted to pick a directory or change the directory to be that folder.
 
 3. Click on *1. Convert magnetometer files to MagIC format* in the Pmag GUI home window
 
@@ -68,7 +68,7 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 <img src="/images/Pmag_GUI_home.png" width="500"/>
 
-2. You should see a panel that looks like the below showing the data for the first specimen in the site. Note that you can customize your view of the data switching between coordinate systems (e.g. specimen, geographic, tilt-corrected) and changing whether the x-axis is north or east for the vector component plot.
+2. You should see a panel that looks like the below showing the data for the first specimen in the site. Note that you can customize your view of the data switching between coordinate systems (e.g. specimen, geographic, tilt-corrected) and changing whether the x-axis is north or east for the vector component plot. In this case, let's change our coordinate system to be geographic or tilt-corrected.
 
 <img src="/images/Demag_GUI_panel.png" width="700"/>
 
@@ -98,7 +98,11 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 ### Converting to MagIC format
 
-1. To get these fits saved into MagIC format, we go to File > Save MagIC tables in Demag_GUI. We have some choices to make. In this case, it makes sense to save the directions in both geographic and tilt-corrected coordinates. We can also have Demag GUI save data into a results table. In this case, saving the site mean and calculating the VGP in both geographic and tilt-corrected coordinates would be valuable.
+1. To get these fits saved into MagIC format, we go to File > Save MagIC tables in Demag_GUI. Let's choose to save the specimen, geographic, and tilt-corrected coordinate systems to the MagIC specimens table.
+
+<img src="/images/Results_Table_Dialog.png" width="300"/>
+
+2. We have some additional choices to make within the next dialog box as pertain to the sample. In this case, it makes sense to save the site directions in both geographic and tilt-corrected coordinates. We can also have Demag GUI calculate the virtual geomagnetic pole (VGP) position.
 
 <img src="/images/Results_Table_Dialog.png" width="300"/>
 
