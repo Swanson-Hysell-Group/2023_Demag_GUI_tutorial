@@ -1,4 +1,4 @@
-# PmagPy Demag GUI tutorial for the 2020 MagIC workshop
+# PmagPy Demag GUI tutorial for the 2023 MagIC workshop
 
 ## Prior to tutorial
 
@@ -108,11 +108,11 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 2. Once you have saved the MagIC tables out of Demag_GUI, close the Demag_GUI window which will bring you back to the Pmag_GUI window. Here you can click the green button *Create MagIC txt file for upload*.
 
-3. For this site, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the necessary metadata. What should then come up is a validations window that provides help with adding the additional required fields.
+3. For this site, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the necessary metadata. What should then come up is a validations window that provides help with adding the additional required fields. *At present, this window comes up for the OSX program, but not the windows one*
 
 <img src="/images/Validations_window.png" width="400"/>
 
-4. These fields can be added using the validation GUI or can be added directly to the MagIC tables.
+4. These fields can be added using the validation GUI or can be added directly to the MagIC tables. Let's go ahead and open the contribution in 
 
 ## Unpacking and visualizing data from a MagIC contribution
 
