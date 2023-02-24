@@ -100,30 +100,34 @@ Now that the SS20 site data have been converted to MagIC format, we can use the 
 
 1. To get these fits saved into MagIC format, we go to File > Save MagIC tables in Demag_GUI. Let's choose to save the specimen, geographic, and tilt-corrected coordinate systems to the MagIC specimens table.
 
-<img src="/images/Results_Table_Dialog.png" width="300"/>
+<img src="/images/Specimens_Table_Dialog.png" width="300"/>
 
-2. We have some additional choices to make within the next dialog box as pertain to the sample. In this case, it makes sense to save the site directions in both geographic and tilt-corrected coordinates. We can also have Demag GUI calculate the virtual geomagnetic pole (VGP) position.
+2. We have some additional choices to make within the next dialog box as pertain to the sample. In this case, it makes sense to save the site directions in both geographic and tilt-corrected coordinates. We can also have Demag GUI calculate the virtual geomagnetic pole (VGP) position. By checking the age box, we can add age information as well. In this case, the lava flow that was studied is bracketed by an underlying tuff with an U-Pb date of 
 
-<img src="/images/Results_Table_Dialog.png" width="300"/>
+<img src="/images/Results_Table_Dialog_w_age.png" width="450"/>
 
 2. Once you have saved the MagIC tables out of Demag_GUI, close the Demag_GUI window which will bring you back to the Pmag_GUI window. Here you can click the green button *Create MagIC txt file for upload*.
 
-3. For this site, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the necessary metadata. What should then come up is a validations window that provides help with adding the additional required fields. *At present, this window comes up for the OSX program, but not the windows one*
+3. For these data, you will get an error message saying that the validation of the upload file has failed. That is because the CIT file that we converted did not contain all of the required metadata for contribution to MagIC. What should then come up is a validations window that provides help with adding the additional required fields. *In the current version, this window comes up for the OSX program, but not the windows one*
 
 <img src="/images/Validations_window.png" width="400"/>
 
-4. These fields can be added using the validation GUI or can be added directly to the MagIC tables. Let's go ahead and open the contribution in 
+4. These fields can be added using the validation GUI or can be added directly to the MagIC tables in a text or spreadsheet editor. Let's go ahead and open the contribution in a spreadsheet editor which will give us the experience of seeing the structure of the tables. We can fill in the missing data fields while referring to the controlled vocabulary that is linked to from the MagIC data model: https://www2.earthref.org/MagIC/data-models/3.0.
+
+### Contributing to MagIC
+
+1. Now we can take our MagIC contribution with our fits and upload it into our private workspaces in MagIC: https://www2.earthref.org/MagIC/upload Let's do so and walk through the steps together.
 
 ## Unpacking and visualizing data from a MagIC contribution
 
-1. The data from this study has been contributed to the MagIC database. Go here to download it https://earthref.org/MagIC/11883 or you can find it in the Fairchild2017 folder of this repository: https://github.com/Swanson-Hysell-Group/2020_Demag_GUI_tutorial/archive/master.zip
+1. The data from this study has been contributed to the MagIC database. Go here to download it https://earthref.org/MagIC/19680 or you can find it in the Fairchild2017 folder of this repository: https://github.com/Swanson-Hysell-Group/2023_Demag_GUI_tutorial/archive/master.zip
 
 2. Click on Unpack txt file downloaded from MagIC. 
 
 <img src="/images/Pmag_GUI_home.png" width="500"/>
 
-3. Navigate to the magic_contribution_11883.txt file
+3. Navigate to the magic_contribution_19680.txt file
 
 4. Change the MagIC project directory to be the folder in which the MagIC file was unpacked.
 
-5. Click on Demag GUI to look at the fits that were made for the study.
+5. Click on Demag GUI to look at the data from this study and the associated fits.
